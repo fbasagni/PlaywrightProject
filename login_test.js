@@ -44,7 +44,7 @@ Scenario('Tentando Logar digitando apenas a senha',  ({ I }) => {
     I.fillField('#user','')
     I.fillField('#password','123456')
     I.click('#btnLogin')
-    I.waitForText('E-mail inválido.', 11)
+    I.waitForText('E-mail inválido.', 10)
     
 }).tag('@invalido')
 
